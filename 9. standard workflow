@@ -1,0 +1,52 @@
+-1. clone a remote repository
+git clone <clone repo name>
+
+-2. Check which branch you are on.
+git branch
+
+-3. create a new branch to work on your functionality
+git checkout -b <branch name>
+
+-4. Make changes to specific functionality.
+
+-5. Add these changes to staging area
+git add -A
+git status
+
+-6. Commit these changes with proper message
+git commit -m "Changed functionality - main function"
+git status
+
+-7. Push these changes to <branch name>
+git push origin <branch name> 
+
+-8. Check which branch you are on.
+git branch -a
+
+-----You have pushed the changes from your local to remote repo.
+
+---- In case you want to merge the changes to master branch, you can follow on.
+-9. Now checkout the master branch, as we want to merge the changes to master
+git checkout master
+
+-10. Always pull the remote branch before pushing the changes to remote repo.
+git pull origin master
+git branch --merged
+
+-11. Merge origin to <branch name>
+git merge <brach name>
+
+-12. Finally push the changes to master
+git push origin master
+
+------Ideally its a good practice to delete the branch on local and remote. Next steps are to delete the local and remote branch.
+-13. Delete local <branch name>
+git branch --merged
+git branch -d <branch name>
+
+-14.Delete the <branch name> from remote repo.
+git branch -a
+git push origin -delete <branch name>
+git branch -a 
+
+

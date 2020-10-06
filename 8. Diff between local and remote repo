@@ -1,0 +1,7 @@
+-generally we should do git diff before push changes to staging area. 
+git diff 
+
+this gives differences between local and remote repo. 
+
+-always check the status 
+git status

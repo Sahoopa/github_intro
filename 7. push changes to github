@@ -1,0 +1,4 @@
+- when you want to push changes from your local origin to github master
+git push origin master
+
+- Note- check the branch you are on in remote repository. If you are on branch called main in remote, then command will change to git pusk origin main.
