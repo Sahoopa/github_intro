@@ -1,0 +1,3 @@
+- Go to github, and get the remote repo location under code section and copy the git repo 
+git clone <github repo>
+
