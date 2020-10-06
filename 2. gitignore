@@ -1,0 +1,7 @@
+-this file ignores the file from your local repository to be tracked on the global repository.
+-sometimes you create some temp files for your reference and dont want them to be tracked. 
+-create gitignore file - 
+touch .gitignore
+- add list of files to gitignore by manually adding the file names to gitignore
+
+- remember, when you checkout, you will checkout gitignore. This will allow the files i gitignore to be not tracked. 

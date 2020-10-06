@@ -1,0 +1,10 @@
+-install git
+brew install git
+- checks the version of the installed locally git
+git --version 
+- sets up the name of the user 
+git config --global user.name "Pallavi Sahoo" 
+- sets up the mail of the user
+git config --global user.email "pds.bangalore@gmail.com" 
+- lists all the git configurations
+git config --list 

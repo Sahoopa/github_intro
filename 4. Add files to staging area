@@ -1,0 +1,17 @@
+- Add one file at a time to staging area
+git add test.py
+
+- If you realise that you do not want to move a specific file(test.py) to staging area
+git reset test.py 
+
+- Add all files to staging area
+git add -A 
+-OR
+git add .
+
+- If you realise that you do not want to move all file to staging area
+git reset 
+
+- Always check the status of your repository
+git status
+
