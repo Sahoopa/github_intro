@@ -5,3 +5,5 @@ touch .gitignore
 - add list of files to gitignore by manually adding the file names to gitignore
 
 - remember, when you checkout, you will checkout gitignore. This will allow the files i gitignore to be not tracked. 
+
+- You can find gitignore templates for the programming language you are using on github.
